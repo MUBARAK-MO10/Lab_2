@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 1 - Personal Information</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f4f6f8;
+            margin: 0;
+            padding: 30px;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: auto;
+            background: white;
+            padding: 25px;
+            border-radius: 10px;
+            box-shadow: 0 3px 12px rgba(0,0,0,0.12);
+        }
+
+        h1 {
+            text-align: center;
+            color: #163a63;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        th, td {
+            border: 1px solid #333;
+            padding: 12px;
+            text-align: left;
+            vertical-align: top;
+        }
+
+        th {
+            background: #e8eef5;
+        }
+
+        .label {
+            font-weight: bold;
+            width: 22%;
+        }
+
+        .photo {
+            width: 130px;
+            height: 160px;
+            border: 2px dashed #777;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            color: #777;
+            margin: auto;
+        }
+
+        ul {
+            margin: 0;
+            padding-left: 20px;
+        }
+
+        a {
+            color: #0b63ce;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+<div class="container">
+    <h1>Personal Information</h1>
+
+    <table>
+        <tr>
+            <td class="label">Name</td>
+            <td>Mubarak Mohamed</td>
+            <td rowspan="3" style="width: 180px;">
+                <div class="photo">
+                    <img src="IMAGE BEST.jpg" alt="My Photo" width="130">
+                </div>
+            </td>
+        </tr>
+
+        <tr>
+            <td class="label">Date of Birth</td>
+            <td>01 / 4 / 2004</td>
+        </tr>
+
+        <tr>
+            <td class="label">Religion</td>
+            <td>MUSLIM</td>
+        </tr>
+
+        <tr>
+            <td class="label">Race</td>
+            <td colspan="2">Somali</td>
+        </tr>
+
+        <tr>
+            <td class="label" rowspan="4">Address</td>
+            <td>Street</td>
+            <td>Jalan limau 9</td>
+        </tr>
+
+        <tr>
+            <td>Town</td>
+            <td>Parit Raja</td>
+        </tr>
+
+        <tr>
+            <td>District</td>
+            <td>Batu Pahat</td>
+        </tr>
+
+        <tr>
+            <td>State</td>
+            <td>Johor</td>
+        </tr>
+
+        <tr>
+            <td class="label" rowspan="3">Contact</td>
+            <td>Mobile Phone</td>
+            <td>+601161319773</td>
+        </tr>
+
+        <tr>
+            <td>Social Media</td>
+            <td><a href="#" target="_blank">Instagram / LinkedIn</a></td>
+        </tr>
+
+        <tr>
+            <td>Website</td>
+            <td><a href="#" target="_blank">My Website</a></td>
+        </tr>
+
+        <tr>
+            <td class="label">Course and Institution</td>
+            <td colspan="2">Software Engineering - Universiti Tun Hussein Onn Malaysia (UTHM)</td>
+        </tr>
+
+        <tr>
+            <td class="label">Programming Skills</td>
+            <td colspan="2">
+                <ul>
+                    <li>HTML & CSS</li>
+                    <li>JavaScript</li>
+                    <li>React</li>
+                    <li>Java</li>
+                </ul>
+            </td>
+        </tr>
+
+        <tr>
+            <td class="label">Hobbies</td>
+            <td colspan="2">
+                <ul>
+                    <li>Playing Chess</li>
+                    <li>Gym</li>
+                    <li>Learning Web Development</li>
+                </ul>
+            </td>
+        </tr>
+
+        <tr>
+            <td class="label">2026 Wishlist</td>
+            <td colspan="2">
+                <ol>
+                    <li>Improve my full-stack development skills</li>
+                    <li>Complete my academic projects successfully</li>
+                    <li>Build useful web applications</li>
+                </ol>
+            </td>
+        </tr>
+    </table>
+</div>
+</body>
+</html>
